@@ -9,7 +9,7 @@ const ProductList = () => {
     const fetchProducts = () => {
         setLoading(true);
         // This points to your Spring Boot ProductController
-        axios.get('http://localhost:8080/api/products')
+        axios.get('http://productservice-env.eba-dpjkpmpr.eu-north-1.elasticbeanstalk.com/api/products')
             .then(response => {
                 setProducts(response.data);
                 setLoading(false);
