@@ -6,7 +6,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/products")
-@CrossOrigin(origins = "*") // Crucial for your Frontend to talk to this later
+@CrossOrigin(origins = "https://main.d1sapxm75hojo4.amplifyapp.com")
 public class ProductController {
 
     @GetMapping
