@@ -6,7 +6,7 @@ const OrderList = () => {
     const [orders, setOrders] = useState([]);
 
     useEffect(() => {
-        axios.get('http://localhost:8081/api/orders') // Note the PORT 8081
+        axios.get('http://localhost:8081/api/orders')
             .then(response => setOrders(response.data))
             .catch(error => console.error("Error fetching orders:", error));
     }, []);

@@ -1,5 +1,6 @@
 import React from 'react';
 import ProductList from './components/ProductList';
+import OrderList from './components/OrderList';
 import './App.css';
 
 function App() {
@@ -19,7 +20,7 @@ function App() {
         <main className="container mx-auto py-8 px-4">
           <div className="max-w-5xl mx-auto">
             <ProductList />
-              <OrderList />
+          <OrderList/>
           </div>
         </main>
 
