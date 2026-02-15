@@ -19,6 +19,7 @@ function App() {
         <main className="container mx-auto py-8 px-4">
           <div className="max-w-5xl mx-auto">
             <ProductList />
+              <OrderList />
           </div>
         </main>
 
