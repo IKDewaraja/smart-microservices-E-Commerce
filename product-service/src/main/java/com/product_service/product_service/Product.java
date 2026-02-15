@@ -1,4 +1,4 @@
-package com.product_service.product_service; 
+package com.product_service.product_service;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 
