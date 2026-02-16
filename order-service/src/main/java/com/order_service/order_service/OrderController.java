@@ -7,7 +7,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/orders")
-@CrossOrigin(origins = "https://main.d1sapxm75hojo4.amplifyapp.com")
+@CrossOrigin(origins = "http://main.d1sapxm75hojo4.amplifyapp.com")
 public class OrderController {
 
     @GetMapping

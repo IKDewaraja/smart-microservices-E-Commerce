@@ -6,7 +6,7 @@ const OrderList = () => {
     const [orders, setOrders] = useState([]);
 
     useEffect(() => {
-        axios.get('https://orderservice-env.eba-fhvmpez2.eu-north-1.elasticbeanstalk.com/api/orders')
+        axios.get('http://orderservice-env.eba-fhvmpez2.eu-north-1.elasticbeanstalk.com/api/orders')
             .then(response => setOrders(response.data))
             .catch(error => console.error("Error fetching orders:", error));
     }, []);
